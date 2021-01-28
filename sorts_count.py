@@ -24,7 +24,7 @@ def insertion_count(a_list):
     """
     Returns number of comparisons and exchanges in a tuple
     """
-    comparison_count = 0
+    comparison_count = 1
     exchange_count = 0
     for index in range(1, len(a_list)):
         value = a_list[index]
