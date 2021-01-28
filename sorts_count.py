@@ -29,7 +29,7 @@ def insertion_count(a_list):
     for index in range(1, len(a_list)):
         value = a_list[index]
         pos = index - 1
-        comparison_count += 2
+        comparison_count += 5
         while pos >= 0 and a_list[pos] > value:
             a_list[pos + 1] = a_list[pos]
             pos -= 1
