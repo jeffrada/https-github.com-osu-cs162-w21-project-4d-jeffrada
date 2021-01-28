@@ -5,7 +5,7 @@
 
 def bubble_count(a_list):
     """
-    Returns number of comparisons and exchanges in a tuple
+    Returns number of comparisons and exchanges as a tuple
     """
     comparison_count = 0
     exchange_count = 0
@@ -22,7 +22,7 @@ def bubble_count(a_list):
 
 def insertion_count(a_list):
     """
-    Returns number of comparisons and exchanges in a tuple
+    Returns number of comparisons and exchanges as a tuple
     """
     comparison_count = 0
     exchange_count = 0
