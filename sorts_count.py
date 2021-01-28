@@ -17,7 +17,7 @@ def bubble_count(a_list):
                 a_list[index] = a_list[index + 1]
                 a_list[index + 1] = temp
                 exchange_count += 1
-    return comparison_count and exchange_count
+    return comparison_count, exchange_count
 
 
 def insertion_count(a_list):
@@ -35,3 +35,4 @@ def insertion_count(a_list):
             pos -= 1
             exchange_count += 1
         a_list[pos + 1] = value
+    return comparison_count, exchange_count
