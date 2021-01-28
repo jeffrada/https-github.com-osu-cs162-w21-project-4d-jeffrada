@@ -24,10 +24,14 @@ def insertion_count(a_list):
     """
     Sorts a_list in ascending order
     """
+    comparison_count = 0
+    exchange_count = 0
     for index in range(1, len(a_list)):
         value = a_list[index]
         pos = index - 1
+        comparison_count += 1
         while pos >= 0 and a_list[pos] > value:
             a_list[pos + 1] = a_list[pos]
             pos -= 1
+            exchange_count += 1
         a_list[pos + 1] = value
